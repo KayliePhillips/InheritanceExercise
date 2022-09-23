@@ -69,10 +69,8 @@ namespace Inheritance
 
             };
 
-            Console.WriteLine($"Watch out for the {snake.AnimalName} named {snake.PersonalName}.  She is {snake.Age} years old," +
-                $" weighs {snake.Weight} pounds, and is {snake.LengthOfBody} feet long. She is {snake.Color} which makes her " +
-                $"very camouflaged.  Can she swim? {snake.CanSwim}. Is she poisonous? " +
-                $"{snake.IsPoisonous}.");
+            snake.PrintReptileInfo();
+                     
 
         }
     }

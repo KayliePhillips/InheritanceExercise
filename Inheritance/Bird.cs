@@ -15,5 +15,6 @@ namespace Inheritance
         public int WingSpan { get; set; }
     }
 
+   
     
 }
