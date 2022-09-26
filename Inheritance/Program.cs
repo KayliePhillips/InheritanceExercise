@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Inheritance
 {
@@ -44,6 +45,11 @@ namespace Inheritance
                 $" {flamingo.WingSpan} feet.  His favorite food is {flamingo.FoodType}.  {flamingo.AnimalName}'s usually lay " +
                 $"{flamingo.NumberofEggs} eggs.  Their feathers are usually {flamingo.Color}. ");
 
+            //After watching John go over this exercise I realized this isn't the best way to 
+            //write this because if I wanted to add another bird I would have to go into the string and 
+            //change each "flaming" to the new bird.  Doing this sorta wrong showed me why another option
+            //like I did for the reptile is the better method.  
+
 
 
             Console.WriteLine();
@@ -69,7 +75,7 @@ namespace Inheritance
 
             };
 
-            snake.PrintReptileInfo();
+           snake.PrintReptileInfo();
                      
 
         }
